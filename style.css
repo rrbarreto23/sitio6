@@ -1,0 +1,108 @@
+
+.menu {
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu li{
+	text-align: center;
+
+}
+
+.logo {
+	text-align:center;
+}
+
+.container{
+	max-width: 900px;
+	margin: auto;
+	text-align: center;
+}
+
+.padre{
+	display: flex;
+	align-items: center;
+}
+
+article{
+	border:solid 1px red;
+	flex: 1;
+}
+
+.redsocial{
+	display: flex;
+}
+
+.redsocial li{
+	width: 30px;
+	height: 30px;
+	background: yellow;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+header{
+	background: -moz-linear-gradient(-45deg, #cb60b3 0%, #c146a1 50%, #a80077 74%, #db36a4 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #cb60b3 0%,#c146a1 50%,#a80077 74%,#db36a4 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #cb60b3 0%,#c146a1 50%,#a80077 74%,#db36a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+h1{
+	font-size: 120px;
+}
+
+@media (max-width: 1200px) and (min-width: 991px){
+	header{
+		background: cyan;
+	}
+}
+
+@media(max-width: 900px){
+	header{
+		background: limegreen;
+	}
+}
+
+@media( max-width: 800px){
+	h1{
+		font-size: 90px;
+		background: yellow;
+	}
+}
+
+@media (max-width: 750px){
+	.padre{
+		flex-direction: column;
+	}
+}
+
+.cebra li:nth-child(even){
+	background: red;
+
+}
+
+.cebra li:nth-child(odd){
+	background: blue;
+}
+
+.c2{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: inline-block;
+	background: blue;
+	border: red 20px solid;
+	padding: 14px;
+}
+
+.c1{
+	display: inline-block;
+	border-radius: 50%;
+	border: red 20px solid;
+	padding:25px;
+}
+
+ion-icon
